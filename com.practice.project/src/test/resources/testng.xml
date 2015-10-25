@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="test">
+  	<parameters>
+  		<parameter name="platform" value="Windows" />
+  		<parameter name="browser" value="Firefox" />
+  		<parameter name="version" value="41" />
+  		<parameter name="url" value="https://docs.google.com/forms/d/18nq9YuC0E8p2JOONkqZ5IAMIdP1eytiEDV8hJn_spHk/viewform" />
+  	</parameters>
+    <classes>
+      <class name="com.practice.project.FirstTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
