@@ -37,7 +37,7 @@ public class FirstTest {
 		}
 					
 		//Version
-		caps.setVersion(version);
+		//caps.setVersion(version);
 		
 		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
 		
