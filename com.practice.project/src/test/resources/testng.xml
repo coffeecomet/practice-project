@@ -4,7 +4,7 @@
   <test name="test">
   	<parameters>
   		<parameter name="platform" value="Linux" />
-  		<parameter name="browser" value="Chrome" />
+  		<parameter name="browser" value="Firefox" />
   		<parameter name="version" value="46" />
   		<parameter name="url" value="https://docs.google.com/forms/d/18nq9YuC0E8p2JOONkqZ5IAMIdP1eytiEDV8hJn_spHk/viewform" />
   	</parameters>

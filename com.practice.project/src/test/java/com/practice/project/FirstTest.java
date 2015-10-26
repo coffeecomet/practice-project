@@ -31,8 +31,8 @@ public class FirstTest {
 			caps.setPlatform(org.openqa.selenium.Platform.LINUX);
 		
 		//Browser
-		if(browser.equalsIgnoreCase("Chrome"))
-			caps = DesiredCapabilities.chrome();
+		if(browser.equalsIgnoreCase("Firefox"))
+			caps = DesiredCapabilities.firefox();
 		
 		//Version
 		caps.setVersion(version);
