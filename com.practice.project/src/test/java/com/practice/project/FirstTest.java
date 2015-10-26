@@ -27,13 +27,15 @@ public class FirstTest {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		
 		//Platform
-		if(platform.equalsIgnoreCase("Linux"))
+		if(platform.equalsIgnoreCase("Linux")) {
 			caps.setPlatform(org.openqa.selenium.Platform.LINUX);
-		
+		}
+					
 		//Browser
-		if(browser.equalsIgnoreCase("Firefox"))
-			caps = DesiredCapabilities.firefox();
-		
+		if(browser.equalsIgnoreCase("Chrome")) {
+			caps = DesiredCapabilities.chrome();
+		}
+					
 		//Version
 		caps.setVersion(version);
 		
