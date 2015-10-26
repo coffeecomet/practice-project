@@ -32,8 +32,8 @@ public class FirstTest {
 		}
 					
 		//Browser
-		if(browser.equalsIgnoreCase("Chrome")) {
-			caps = DesiredCapabilities.chrome();
+		if(browser.equalsIgnoreCase("Firefox")) {
+			caps = DesiredCapabilities.firefox();
 		}
 					
 		//Version
