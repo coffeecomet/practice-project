@@ -39,7 +39,7 @@ public class FirstTest {
 		//Version
 		//caps.setVersion(version);
 		
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
+		driver = new RemoteWebDriver(new URL("http://172.31.52.185:4444/wd/hub"), caps);
 		
 		driver.get(url);
 		
