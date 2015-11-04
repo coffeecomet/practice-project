@@ -29,6 +29,8 @@ public class FirstTest {
 		//Platform
 		if(platform.equalsIgnoreCase("Linux")) {
 			caps.setPlatform(org.openqa.selenium.Platform.LINUX);
+		}else if(platform.equalsIgnoreCase("Windows")){
+			caps.setPlatform(org.openqa.selenium.Platform.WINDOWS);
 		}
 					
 		//Browser
@@ -39,7 +41,7 @@ public class FirstTest {
 		//Version
 		//caps.setVersion(version);
 		
-		driver = new RemoteWebDriver(new URL("http://52.91.163.77:4444/wd/hub"), caps);
+		driver = new RemoteWebDriver(new URL("http://54.173.219.98:4444/wd/hub"), caps);
 		
 		driver.get(url);
 		
