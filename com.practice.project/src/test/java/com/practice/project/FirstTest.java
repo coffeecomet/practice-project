@@ -41,7 +41,7 @@ public class FirstTest {
 		//Version
 		//caps.setVersion(version);
 		
-		driver = new RemoteWebDriver(new URL("http://54.173.219.98:4444/wd/hub"), caps);
+		driver = new RemoteWebDriver(new URL("http://ec2-54-173-219-98.compute-1.amazonaws.com:4444/wd/hub"), caps);
 		
 		driver.get(url);
 		
